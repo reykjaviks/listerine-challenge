@@ -11,3 +11,40 @@ body {
     box-shadow: 10px 10px 10px rgba(0, 0, 0, .5);
     background-color: #E1EDEB;
 }
+
+h1 {
+    font-family: 'Varela Round', 'Arial Black', serif;
+    font-weight: normal;
+    font-size: 3em;
+    margin: 0;
+}
+
+blockquote {
+    font-family: 'Palatino Linotype', Baskerville, serif;
+    font-size: 1.25em;
+    color: #616161;
+    line-height: 150%;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+
+h2 {
+    color: rgb(54, 54, 54);
+    font-family: 'Varela Round', 'Arial Black', serif;
+    font-weight: normal;
+    font-size: 2.2em;
+    border-bottom: 2px grey solid;
+    background: url(images/head-icon.png) no-repeat 10px 10px;
+    padding: 0 0 2px 60px;
+    margin: 0;
+}
+
+address {
+    font-family: "Palatino Linotype", Baskerville, serif;
+    font-size: 1.25em;
+    color: #616161;
+    line-height: 150%;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+
