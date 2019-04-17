@@ -19,3 +19,18 @@ p {
     font-size: 1em;
     font-family: 'Open Sans', sans-serif;
 }
+
+#logo {
+    font-family: Baskerville, Palatino, sans-serif;
+    font-size: 2em;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: rgb(255, 246, 229);
+    border-radius: 0 0 10px 10px;
+    padding: 10px;
+}
+
+.quote {
+    font-style: italic;
+}
