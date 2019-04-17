@@ -43,3 +43,8 @@ article {
     max-width: 760px;
     margin: 0 auto;
 }
+
+h1+p { /* Sibling selector test, does not affect the HTML page in it's current state */
+    font-size: 1.2em;
+    line-height: 140%;
+}
