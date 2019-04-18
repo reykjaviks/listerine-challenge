@@ -1,11 +1,30 @@
-h1 {
-
+body {
+    background-color: black;
 }
 
-article {
+.commandments {
+    color: white;
+    font-family: 'Space Mono', monospace;
+    max-width: 660px;
+    margin: 1em auto;
+}
 
+.commandments>h1 {
+    text-align: center;
+}
+
+.commandments-list {
+    background-color: rgb(24, 81, 94);
+    padding: 10px;
+    border-radius: 10px;
+    border: 1em;
+}
+
+li p {
+    font-family: 'Karla', sans-serif;
 }
 
 footer {
-    
+    color: gray;
+    text-align: center;
 }
