@@ -44,6 +44,10 @@ article {
     margin: 0 auto;
 }
 
+footer > address { /* Child selector */
+    text-align: center;
+}
+
 h1+p { /* Sibling selector test, does not affect the HTML page in it's current state */
     font-size: 1.2em;
     line-height: 140%;
