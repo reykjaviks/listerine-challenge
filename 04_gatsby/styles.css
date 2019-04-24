@@ -1,0 +1,44 @@
+body {
+    max-width: 680px;
+    margin: 20px;
+	padding: 10px 10px;
+    border: 0;
+    line-height: 1;
+    font-size: 100%;
+}
+
+article {
+    display: block;
+}
+
+.citation {
+    border-left: solid lightgray;
+    border-width: 2px;
+    padding: 0 20px;
+    font-size: 20px;
+}
+
+.citation blockquote {
+    font-family: 'EB Garamond', serif;
+}
+
+.citation p {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+blockquote {
+    margin: 0;
+}
+
+blockquote::before {
+    content: open-quote;
+    color: lightgrey;
+    font-size: 2em;
+}
+
+blockquote::after {
+    content: close-quote;
+    color: lightgray;
+    font-size: 2em;
+}
